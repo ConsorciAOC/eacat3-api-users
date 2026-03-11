@@ -285,7 +285,17 @@ Authorization: Bearer [JWT_TOKEN]
 
 ### Errors possibles
 
-<img width="589" height="273" alt="image" src="https://github.com/user-attachments/assets/f1affb30-ba44-4095-992d-48d8548a4ad9" />
+| Code | Descripció |
+|--------|------------|
+| UNKNOWN_USER | user not known |
+| DISABLED_USER | Disabled user |
+| UNKNOWN_ENTITY | Unknown entity |
+| IDENTIFIER_NO_BELONGS_TO_ENTITY | User not belongs to the entity |
+| UNKNOWN_APPLICATION | Unknown application |
+| MISSING_IDENTIFIER_OR_ENTITY | Validate that at least one of the two comes (identifier or ine10) |
+| NOT_ALLOWED_WHITESPACE | Input contains whitespace characters that are not allowed |
+| NO_PROFILES_FOUND | No active profiles found for user |
+
 
 ## 4.4 Creació / modificació de les credencials del usuari
 
