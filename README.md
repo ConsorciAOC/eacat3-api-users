@@ -111,6 +111,7 @@ Per utilitzar l’API cal enviar un **token JWT** a la capçalera HTTP.
 
 ### Exemple
 Authorization: Bearer [TOKEN]
+
 Aquest token s’obté a partir de credencials proporcionades per l’administrador de la plataforma.
 
 ---
