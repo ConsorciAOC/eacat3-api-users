@@ -236,7 +236,12 @@ Authorization: Bearer [JWT_TOKEN]
 
 ### Errors possibles
 
-<img width="627" height="153" alt="image" src="https://github.com/user-attachments/assets/6a3965a1-b66d-405e-8a1f-bdb25a4b6d9c" />
+| Code | Descripció |
+|--------|------------|
+| UNKNOWN_USER | user not known |
+| DISABLED_USER | Disabled user |
+| NOT_ALLOWED_WHITESPACE | Input contains whitespace |
+
 
 ## 4.3 Rols d’un usuari en una entitat i una aplicació
 
