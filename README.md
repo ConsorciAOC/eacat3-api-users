@@ -157,18 +157,8 @@ Content-Type: application/json
 
 Authorization: Bearer [JWT_TOKEN]
 
----
-
 ### Body
-```json
-{
-  "identifier": "[USER_DNI]",
-  "password": "[USER_PASSWORD]"
-}
-```
----
 
-### Body
 ```json
 {
   "identifier": "[USER_DNI]",
@@ -176,7 +166,8 @@ Authorization: Bearer [JWT_TOKEN]
 }
 ```
 
-Resposta correcta
+### Resposta correcta
+
 ```json
 {
   "ok": true,
@@ -189,7 +180,7 @@ Resposta correcta
 }
 ```
 
-Errors possibles
+### Errors possibles
 
 | Code | Descripció |
 |--------|------------|
@@ -213,6 +204,7 @@ Content-Type: application/json
 Authorization: Bearer [JWT_TOKEN]
 
 ### Body
+
 ```json
 {
   "identifier": "[USER_DNI]"
@@ -220,6 +212,7 @@ Authorization: Bearer [JWT_TOKEN]
 ```
 
 ### Exemple resposta
+
 ```json
 {
   "ok": true,
@@ -260,8 +253,6 @@ Authorization: Bearer [JWT_TOKEN]
 ### Possibles combinacions
 
 <img width="668" height="400" alt="image" src="https://github.com/user-attachments/assets/584b75f4-0c93-4669-8808-8537c3b9db88" />
-
-
 
 ### Body
 
