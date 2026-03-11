@@ -258,7 +258,8 @@ Authorization: Bearer [JWT_TOKEN]
 
 ### Possibles combinacions
 
-<img width="694" height="408" alt="image" src="https://github.com/user-attachments/assets/d8ce8b07-eb47-47b4-acbb-88e2d4561e14" />
+<img width="668" height="400" alt="image" src="https://github.com/user-attachments/assets/584b75f4-0c93-4669-8808-8537c3b9db88" />
+
 
 
 ### Body
