@@ -333,4 +333,7 @@ Authorization: Bearer [JWT_TOKEN]
 
 ### Errors possibles
 
-<img width="613" height="121" alt="image" src="https://github.com/user-attachments/assets/d8c5e5b3-efa4-45fa-a976-2c9987e7ad83" />
+| Code | Descripció |
+|--------|------------|
+| UNKNOWN_ERROR | user not known |
+| PASSWORD_NOT_VALID | Password policy not valid |
